@@ -1,0 +1,32 @@
+html, body{
+
+font-family: 'Lato', sans-serif;    
+font-color:#222;
+font-size:16px;
+
+}
+
+#title{
+    position:fixed;
+    top:0px;
+    padding:20px;
+}
+#map{
+    position:fixed;
+    left:0px;
+    top:50px;
+}
+#charts{
+    width:600px;
+    height:95%;
+    color:#000;
+    position:absolute;
+    right:0px;
+    top:0px;
+    margin:20px;
+    padding:20px;
+    background-color:rgba(255,255,255,.5);
+}
+#charts div{
+    border-bottom:1px solid black;
+}

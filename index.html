@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <meta charset="UTF-8">
+	  
+	<title>Atlas Test 1</title>
+	<script src="static/javascripts/d3.v3.min.js"></script>
+	<script src="static/javascripts/topojson.v1.min.js"></script>
+	<script src="static/javascripts/jquery.min.js"></script>
+	<script src="static/javascripts/d3.tip.v0.6.3.js"></script>
+	<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script src="http://d3js.org/queue.v1.min.js"></script>
+	<script src="static/javascripts/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="static/stylesheets/jquery-ui.css" />
+	<link rel="stylesheet" href="static/bootstrap-3.1.1-dist/css/bootstrap.min.css">
+	<script src="static/javascripts/jquery-ui.min.js"></script>
+	<link href="static/bootstrap-3.1.1-dist/css/bootstrap-glyphicons.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  
+  <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+  
+	<link rel="stylesheet" type="text/css" href="static/stylesheets/atlas.css"> </style>
+	
+     
+</head>
+
+<body>
+  <div id = "title">
+Atlas of Light: </div>
+<div id = "map"></div>
+<div id = "charts">
+  <div id ="titles">menu</div>
+  <div id ="zipcode">zipcode</div>
+  <div id ="income">income</div>
+  <div id ="developmentIntensity">development intensity</div>
+  <div id ="overview">overview</div>
+</div>
+<script type="text/javascript" charset="utf-8">
+  var zipcodes = "data/zipcodes.geojson"
+  var data = "data/160419_socialexplorer.csv"	
+</script>
+	
+<script src="index.js"></script>
+	
+</body>
+</html>
